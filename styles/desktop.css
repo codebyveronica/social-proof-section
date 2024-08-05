@@ -37,7 +37,7 @@
     }
 
     strong {
-        width: 425px;
+        min-width: 425px;
         text-align: left;
     }
 
