@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+:root {
+    /* ## Colors */
+    /* ### Primary */
+    --cor01: #502050;
+    --cor02: #ee68a4;
+
+    /* ### Neutral */
+    --cor03: #937b92;
+    --cor04: #f7f2f7;
+    --cor05: #ffffff;
+
+    /* ## Typography */
+    /* ### Font */
+    --font01: "League Spartan", sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--cor05) url(../images/bg-pattern-top-mobile.svg) top left no-repeat;
+    background-size: 70%;
+
+    font-family: var(--font01);
+    font-size: 16px;
+}
+
+main {
+    max-width: 350px;
+    padding: 20px;
+    margin: auto;
+}
+
+h1 {
+    color: var(--cor01);
+    text-align: center;
+    margin-top: 60px;
+}
+
+p {
+    color: var(--cor03);
+    text-align: center;
+    line-height: 24px;
+    
+    margin: 20px 0px 30px 0px;
+}
+
+strong {
+    display: block;
+    color: var(--cor01);
+    background-color: var(--cor04);
+    text-align: center;
+    padding: 15px;
+    margin: 15px 0px;
+    border-radius: 5px;
+}
+
+strong::before {
+    display: block;
+    content: url(../images/icon-star.svg)" "
+    url(../images/icon-star.svg)" "
+    url(../images/icon-star.svg)" "
+    url(../images/icon-star.svg)" "
+    url(../images/icon-star.svg);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+section {
+    background-color: var(--cor01);
+    padding: 30px;
+    margin: 15px 0px;
+    border-radius: 5px;
+}
+
+img {
+    float: left;
+    height: 40px;
+    margin: 0px 25px 0px 0px;
+    border-radius: 50%;
+}
+
+h2 {
+    color: var(--cor05);
+    font-size: 16px;
+    vertical-align: middle;
+    padding: 5px 0px;
+}
+
+span {
+    color: var(--cor02);
+    font-size: 16px;
+}
+
+blockquote {
+    color: var(--cor04);
+    line-height: 24px;
+    margin-top: 20px;
+}
+
+.colton {
+    margin-top: 45px;
+}
+
+.anne {
+    margin-bottom: 50px;
+}

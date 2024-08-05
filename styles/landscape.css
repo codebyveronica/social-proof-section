@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    body {
+        background: url(../images/bg-pattern-top-desktop.svg) top left no-repeat;
+        background-size: 36%;
+    }
+
+    main {
+        max-width: 992px;
+        
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .item {
+        flex-flow: row nowrap;
+    }
+
+    h1 {
+        min-width: 250px;
+        font-size: 35px;
+        text-align: left;
+        margin: 0px;
+    }
+
+    p {
+        min-width: 300px;
+        text-align: left;
+    }
+
+    .rated {
+        margin-left: 50px;
+    }
+
+    strong {
+        min-width: 250px;
+    }
+
+    .reviews {
+        margin-top: 20px;
+    }
+
+    .report {
+        margin-left: 25px;
+    }
+
+    .besttech {
+        margin-left: 50px;
+    }
+
+    section {
+        height: 300px;
+        min-width: 225px;
+        margin: 0px 10px 0px 0px;
+        border-radius: 8px;
+    }
+
+    .colton {
+        margin-top: 60px;
+    }
+
+    .irene {
+        margin-top: 80px;
+    }
+
+    .anne {
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
+}

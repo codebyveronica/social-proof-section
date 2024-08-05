@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1200px) {
+    body {
+        background: url(../images/bg-pattern-top-desktop.svg) top left no-repeat;
+        background-size: 36%;
+    }
+
+    main {
+        padding: 25px;
+        margin: 75px 150px;
+        margin-bottom: 0px;
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .item {
+        flex-flow: row nowrap;
+    }
+
+    h1 {
+        width: 350px;
+        font-size: 50px;
+        text-align: left;
+        margin: 0px;
+    }
+
+    p {
+        width: 400px;
+        text-align: left;
+    }
+
+    .rated {
+        margin-left: 200px;
+    }
+
+    strong {
+        width: 425px;
+        text-align: left;
+    }
+
+    .reviews {
+        margin-top: 20px;
+    }
+
+    .report {
+        margin-left: 50px;
+    }
+
+    .besttech {
+        margin-left: 100px;
+    }
+
+    strong::before {
+        display: inline;
+        text-align: left;
+        padding: 0px 30px;
+    }
+
+    section {
+        height: 250px;
+        min-width: 350px;
+        border-radius: 8px;
+        margin: 0px 30px 0px 0px;
+    }
+
+    .colton {
+        margin-top: 60px;
+    }
+
+    .irene {
+        margin-top: 80px;
+    }
+
+    .anne {
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
+}
